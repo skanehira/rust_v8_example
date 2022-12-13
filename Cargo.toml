@@ -1,0 +1,16 @@
+[package]
+name = "rust_v8_example"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+deno_core = "0.153.0"
+deno_runtime = "0.79.0"
+deno_crypto = "0.85.0"
+deno_web = "0.102.0"
+serde_v8 = "0.65.0"
+serde = "1.0.145"
+serde_json = "1.0.86"
+futures = "0.3.21"
